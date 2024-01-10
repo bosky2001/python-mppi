@@ -1,15 +1,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)
+### This repository is my attempt at implementing Model Predictive Path Integral Control. I have taken the setup from the original repository (https://github.com/MizuhoAOKI/python_simple_mppi) and implemented my own version in it.
 
 # Simple MPPI Implementation with Python
 Model Predictive Path-Integral (MPPI) Control [[G. Williams et al., 2018]](#references) is a promising sampling-based optimal control algorithm.  
 This repository is for understanding the basic idea of the algorithm.
 
 <img src="./media/pathtracking_obav_demo.gif" width="500px" alt="pathtracking and obstacle avoidance demonstraion">
-<img src="./media/pathtracking_demo.gif" width="500px" alt="pathtracking demonstraion">
 <img src="./media/pendulum_swingup_demo.gif" width="500px" alt="swinging up pendulum demonstraion">
-<img src="./media/cartpole_demo.gif" width="500px" alt="swinging up pendulum demonstraion">
-<!-- https://github.com/MizuhoAOKI/python_simple_mppi/assets/63337525/bda8cdbc-5cfd-4885-ac8d-3240867f027c -->
 
 ## Dependency
 
@@ -90,22 +87,7 @@ poetry install
     ```sh
     cd python_simple_mppi
     poetry run jupyter notebook notebooks/mppi_pendulum.ipynb
-    ```
 
-### CartPole
-<img src="./media/cartpole.png" width="300px" alt="cartpole">
-
-- Run simulation of cartpole
-    ```sh
-    cd python_simple_mppi
-    poetry run python scripts/mppi_cartpole.py
-    ```
-
-- Run jupyter notebook if you would like to check mathematical explanations on the algorithm.
-    ```sh
-    cd python_simple_mppi
-    poetry run jupyter notebook notebooks/mppi_cartpole.ipynb
-    ```
 
 ## References
 1. G. Williams et al. "Information-Theoretic Model Predictive Control: Theory and Applications to Autonomous Driving" 
