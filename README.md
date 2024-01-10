@@ -5,7 +5,7 @@
 Model Predictive Path-Integral (MPPI) Control [[G. Williams et al., 2018]](#references) is a promising sampling-based optimal control algorithm.  
 This repository is for understanding the basic idea of the algorithm.
 
-<img src="./media/pathtracking_obav_demo.gif" width="500px" alt="pathtracking and obstacle avoidance demonstraion">
+<img src="./media/mppi_pathtracking_obav_demo.gif" width="500px" alt="pathtracking and obstacle avoidance demonstraion">
 <img src="./media/pendulum_swingup_demo.gif" width="500px" alt="swinging up pendulum demonstraion">
 
 ## Dependency
