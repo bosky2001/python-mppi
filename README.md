@@ -1,5 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-### This repository is my attempt at implementing Model Predictive Path Integral Control. I have taken the setup from the original repository (https://github.com/MizuhoAOKI/python_simple_mppi) and implemented my own version in it.
+### Note 
+This repository is my attempt at implementing Model Predictive Path Integral Control. I have taken the setup from the original repository (https://github.com/MizuhoAOKI/python_simple_mppi) and implemented my own version in it.
+TODO: implement CBF instead of current collision check
 
 # Simple MPPI Implementation with Python
 Model Predictive Path-Integral (MPPI) Control [[G. Williams et al., 2018]](#references) is a promising sampling-based optimal control algorithm.  
